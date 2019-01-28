@@ -5,8 +5,10 @@ fun main(args: Array<String>) {
     //Human().hello()
     val h=Human()
     h.hello()
-}
+    var age=10
+    var name=""
 
+}
 class Human{
     fun hello(){
         println("Hello Kotlin")
